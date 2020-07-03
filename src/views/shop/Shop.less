@@ -1,0 +1,462 @@
+
+
+@desgin: 750;
+@base: 75rem;
+.contain {
+  width: 100%;
+  // height: 10000px;
+}
+.towechat {
+  width: 100%;
+  height: 400 / @base;
+  background: #ffffff;
+  border-radius: 20 / @base 20 / @base 0 0;
+  .towechat_title {
+    margin: 60 / @base auto;
+    font-size: 30 / @base;
+    text-align: center;
+    color: #333333;
+  }
+  .towechat_box {
+    width: 464 / @base;
+    height: 140 / @base;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .towechat_item {
+      img {
+        width: 95 / @base;
+        height: 95 / @base;
+        background-size: 100% 100%;
+      }
+      p {
+        text-align: center;
+        width: 100%;
+        font-size: 24 / @base;
+        color: #333333;
+        margin-top: 16 / @base;
+      }
+    }
+  }
+}
+// 顶部返回分享容器
+.top_fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120 / @base;
+  // background: #fff;
+  z-index:2;
+  .top_left {
+    position: fixed;
+    top: 20 / @base;
+    left: 40 / @base;
+    width: 80 / @base;
+    height: 80 / @base;
+    line-height: 80 / @base;
+    background: rgba(102, 103, 98, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    i {
+      width: 80 / @base;
+      height: 80 / @base;
+      font-size: 25px;
+      line-height: 80 / @base;
+      color: white;
+    }
+  }
+  .top_right {
+    position: fixed;
+    top: 20 / @base;
+    right: 40 / @base;
+    width: 80 / @base;
+    height: 80 / @base;
+    line-height: 80 / @base;
+    background: rgba(102, 103, 98, 0.5);
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    i {
+      width: 80 / @base;
+      height: 80 / @base;
+      line-height: 80 / @base;
+      font-size: 25px;
+      color: white;
+    }
+  }
+}
+.head {
+  position: relative;
+  width: 100%;
+  // height: 400/@base;
+  i{
+    font-size: 50/@base;
+    color: white;;
+  }
+  img{
+    width: 100%;
+    height:400/@base;
+    // background-position: 0 -102 / @base;
+    background-size: 100% 100%;
+  }
+  // background-color: pink;
+  // background: url(../../assets/images/shop_banner.jpg) no-repeat;
+
+ 
+}
+.postion {
+  padding: 31 / @base 0 48 / @base 40 / @base;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  .guanzhu{
+    z-index: 1;
+    position: absolute;
+    bottom: 70 / @base;
+    right: 40 / @base;
+    width: 174 / @base;
+    height: 52 / @base;
+    color: #8300c3;
+  // background: #b695e9;
+    border: 1px solid #8300c3;
+    border-radius: 30 / @base;
+    text-align: center;
+    font-size: 26 / @base;
+    line-height: 52 / @base;
+  }
+  .yiguanzhu{
+    z-index: 1;
+    position: absolute;
+    bottom: 70 / @base;
+    right: 40 / @base;
+    width: 174 / @base;
+    height: 52 / @base;
+    background: #d2d2d2;
+          // border: 1px solid #8700c6;
+    border-radius: 30 / @base;
+    text-align: center;
+    line-height: 52 / @base;
+    font-size: 26 / @base;
+    color: #ffffff;
+  }
+  .rate {
+    position: relative;
+    margin-top: 20 / @base;
+    margin-bottom: 27 / @base;
+    font-size: 0;
+    vertical-align: top;
+
+    .van-rate__icon {
+      font-size: 28 / @base;
+    }
+    span {
+      position: absolute;
+      left: 270 / @base;
+      bottom: -2 / @base;
+      font-size: 24 / @base;
+      color: #b695e9;
+    }
+  }
+  span {
+    position: absolute;
+    left: 220 / @base;
+    bottom: 55 / @base;
+    font-size: 24 / @base;
+    color: #b695e9;
+  }
+
+  h3 {
+    font-size: 40 / @base;
+    color: #3c3c3c;
+    margin: 30 / @base 0;
+  }
+}
+.time {
+  padding: 13 / @base 0 13 / @base 40 / @base;
+  border-bottom: 1 / @base solid #e6e6e6;
+
+  div {
+    font-size: 30 / @base;
+    color: #3c3c3c;
+    font-style: normal;
+  }
+  p {
+    font-size: 24 / @base;
+    color: #808080;
+    margin-top: 13 / @base;
+  }
+}
+
+.area {
+  letter-spacing: 2 / @base;
+  padding: 37 / @base 42 / @base 37 / @base 40 / @base;
+  .left {
+    width: 540/@base;
+    min-height: 1/@base;
+    float: left;
+    padding-left: 22 / @base;
+    font-size:30 / @base;
+    color: #3c3c3c;
+    position: relative;
+    i {
+      position: absolute;
+      left: -5 / @base;
+      top: 5 / @base;
+      width: 22 / @base;
+      height: 31 / @base;
+      background: url(../../assets/images/shop_address.png) center no-repeat;
+      background-size: 22 / @base 31 / @base;
+    }
+    p {
+      font-size: 24 / @base;
+      color: #808080;
+      margin-top: 13 / @base;
+      letter-spacing: 1 / @base;
+    }
+  }
+  .right {
+    padding-top: 15/@base;
+    width: 37/ @base;
+    min-height:80/ @base ;
+    float: right;
+    
+    // margin-top: 11 / @base;
+    img {
+      display: inline-block;;
+      margin: auto 0;
+      width: 37 / @base;
+      height: 47 / @base;
+      // line-height: 90/@base;
+    }
+  }
+}
+
+.recoment {
+  padding-top: 20 / @base;
+  background-color: #eee;
+  .inner {
+    padding: 40 / @base;
+    padding-right: 81 / @base;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none;
+    }
+    .left {
+      .clean {
+        margin-left: 165 / @base;
+        .deep {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1; //行数
+          -webkit-box-orient: vertical;
+          font-size: 32 / @base;
+          color: #3c3c3c;
+        }
+        .second {
+          font-size: 24 / @base;
+          color: #939393;
+          // margin-top: 5 / @base;
+          // margin-bottom: 8 / @base;
+          position: relative;
+          .yishou {
+            position: absolute;
+            right: 0;
+          }
+        }
+        .price {
+          .now {
+            font-size: 30 / @base;
+            color: #b695e9;
+          }
+          .ago {
+            font-size: 24 / @base;
+            color: #939393;
+            text-decoration: line-through;
+          }
+        }
+      }
+      img {
+        width: 120 / @base;
+        height: 120 / @base;
+        border-radius: 5 / @base;
+        margin-top: 9/@base;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.comment {
+  padding-top: 20 / @base;
+  background-color: #eee;
+  .top {
+    background-color: #fff;
+    padding: 40 / @base;
+    .bd {
+      .user {
+        position: relative;
+        .aaa {
+          font-size: 36 / @base;
+          color: #3c3c3c;
+        }
+        a {
+          position: absolute;
+          right: 0;
+          top: -7 / @base;
+          color: #959595;
+          font-size: 36 / @base;
+        }
+      }
+      .zonghe {
+        display: flex;
+        padding-left: 100/ @base;
+        padding-right: 100/@base;
+        margin-top: 35 / @base;
+        .left {
+          width: 50%;
+          text-align: left;
+          font-size: 0;
+          padding-right: 42 / @base;
+          
+          border-right: 1 / @base solid #e6e6e6;
+          .zh {
+            font-size: 24 / @base;
+            color: #939393;
+          }
+          .num {
+            margin-left: 10 / @base;
+            font-size: 32 / @base;
+            color: #b695e9;
+          }
+          .star {
+            margin-top: 10 / @base;
+            .van-rate__icon {
+              font-size: 28 / @base;
+            }
+          }
+        }
+        .right {
+          width: 50%;
+          padding-left: 42 / @base;
+          p {
+            font-size: 24 / @base;
+            color: #959595;
+            margin: 9 / @base 0;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    background-color: #fff;
+    padding: 40 / @base;
+    padding-top: 0;
+    .bg {
+      border-top: 1 / @base solid #e6e6e6;
+      padding-top: 40 / @base;
+      .face {
+        position: relative;
+        img {
+          position: absolute;
+          width: 80 / @base;
+          height: 80 / @base;
+          border-radius: 50%;
+        }
+        .peo {
+          margin-left: 100 / @base;
+          p {
+            font-size: 30 / @base;
+            color: #3c3c3c;
+          }
+          .keai {
+            position: relative;
+            font-size: 24 / @base;
+            .date {
+              position: absolute;
+              right: 0;
+              color: #868686;
+            }
+          }
+          .cstar {
+            margin-top: 10 / @base;
+            font-size: 24 / @base;
+            position: relative;
+
+            .rate {
+              position: absolute;
+              left: 0;
+              top: 0;
+              color: #3c3c3c;
+              vertical-align: top;
+            }
+            .count {
+              padding-left: 75 / @base;
+              .van-rate__icon {
+                font-size: 28 / @base;
+              }
+            }
+            .num {
+              color: #b695e9;
+              position: absolute;
+              top:5 / @base;
+              left: 330/ @base;
+            }
+          }
+        }
+      }
+      .com {
+        font-size: 30 / @base;
+        margin-left: 100 / @base;
+        margin-top: 20 / @base;
+        a {
+          display: block;
+          color: #3c3c3c;
+          letter-spacing: 2 / @base;
+        }
+      }
+
+      .all {
+        margin-left: 100 / @base;
+        margin-top: 10 / @base;
+        a {
+          display: block;
+          color: #b695e9;
+          font-size: 24 / @base;
+        }
+      }
+
+      .pics {
+        margin-left: 100 / @base;
+        margin-top: 15 / @base;
+        img {
+          width: 158 / @base;
+          height: 158 / @base;
+          // margin-right: 20 / @base;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.more {
+  padding: 40 / @base;
+  padding-top: 0;
+  .link {
+    padding-top: 40 / @base;
+    border-top: 1 / @base solid #808080;
+    a {
+      margin-left: 100 / @base;
+      text-align: center;
+      display: block;
+      font-size: 30 / @base;
+      color: #b695e9;
+    }
+  }
+}
+
+
+

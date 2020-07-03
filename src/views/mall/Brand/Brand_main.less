@@ -1,0 +1,186 @@
+@base:75rem;
+.van-dropdown-menu{
+    height: 90/@base !important;
+}
+.top{
+    position: relative;
+    header{
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 120/@base;
+        line-height: 120/@base;
+        background: #D5A7FF;
+        padding: 30/@base 30/@base;
+        display: flex;
+    }
+    input{
+        margin-left: 60/@base;
+        width:80%;
+        height: 60/@base;
+        padding: 15/@base 0   15/@base 70/@base;
+        text-align: left;
+        font-size: 30/@base;
+        border-radius: 20px;
+    }
+    img{
+      width: 42 / @base;
+        height: 60 / @base;
+         background-size: 100%;
+         margin-left: 30/@base;
+    }
+    
+}
+// banner
+.banner{
+    width: 100%;
+    height: 350/@base;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 120/@base;
+}
+// 人气推荐
+.tuijian_title{
+    width: 100%;
+    height: 90/@base;
+    line-height: 90/@base;
+    padding: 0 40/@base;
+    font-weight: 550;
+    font-size: 35/@base;
+    span{
+        float: right;
+        font-size: 28/@base;
+       font-weight:500;
+       color:#999798;
+    }
+
+}
+.tuijian_box{
+    width: 100%;
+    height:420/@base;
+    padding: 0 40/@base;
+    display: flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    margin-bottom: 20/@base;
+    img{
+        width:22%;
+        height: 180/@base;
+        // margin-right: 20/@base;
+    }
+}
+.bu{
+    width: 100%;
+    height: 13/@base;
+    background: #EEEEEE;
+}
+// 下拉菜单
+.menu{
+    position: relative;
+    span{
+      position: absolute;
+      top: 15/@base;
+      left: 49%;
+      width:3/@base;
+      height: 60/@base;
+      background: #D2D2D2;
+    //   color: red;
+    }
+    display: flex;
+    width: 100%;
+    height: 90/@base;
+    .menu_left{
+      width: 50%;
+      height: 90/@base;
+      line-height: 90/@base;
+      text-align: center;
+      font-size: 32/@base;
+
+    }
+    .menu_right{
+        width: 50%;
+        height: 90/@base;
+        .menu_address{
+         width:220/@base;
+         height: 60/@base;
+         line-height: 60/@base;
+         font-size: 28/@base;
+         text-align: center;
+        //  background: #D5A7FF;
+         float: left;
+        }
+    }
+    
+}
+
+// 品牌店铺列表
+.product{
+    width: 100%;
+    // height: 6000/@base;
+    background: #F9F3FF;
+    padding: 40/@base;
+    .product_item{
+        display: flex;
+        width: 100%;
+        height: 400/@base;
+        background: white;
+        border-radius: 10px;
+        padding: 30/@base;
+        margin-bottom: 40/@base;
+        .product_item_left{
+         width: 45%;
+         height: 340/@base;
+         text-align: center;
+         img{
+             margin: 0 auto;
+             width: 220/@base;
+             height:220/@base;
+             border-radius: 50%;
+         }
+         .product_name{
+          font-size: 35/@base;
+
+         }
+        }
+       .product_item_right{
+            position: relative;
+           width: 55%;
+           height: 340/@base;
+         .product_item_right_flag{
+             width: 160/@base;
+             height: 50/@base;
+             line-height: 50/@base;
+             text-align: center;
+             background: #D5A7FF;
+             color:white;
+             font-size: 28/@base;
+         }
+         .product_item_right_hot{
+            font-size: 28/@base;
+            color: #D5A7FF;
+            margin-top: 10/@base;
+            margin-bottom: 10/@base;
+         }
+         .product_item_right_des{
+             width: 100%;
+             height: 130/@base;
+            //  background: red;
+            font-size:22/@base;
+            overflow: hidden;
+         }
+         .product_item_right_chanpin{
+             margin-top: 10/@base;
+            font-size: 24/@base;
+         }
+         .jinru{
+             position: absolute;
+             bottom: 0;
+             right: 0;
+            font-size: 24/@base;
+            color: #D5A7FF;
+         }
+
+       }
+    }
+}

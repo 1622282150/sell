@@ -1,0 +1,43 @@
+@font-face {  
+    font-family: 'PingFangMedium';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangMedium.ttf'); */
+    src: url('PingFangMedium.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family: 'PingFangBold';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangBold.ttf'); */
+    src: url('PingFangBold.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family:'PingFangExtraLight';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangExtraLight.ttf'); */
+    src: url('PingFangExtraLight.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family:'PingFangHeavy';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangHeavy.ttf'); */
+    src: url('PingFangHeavy.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family: 'PingFangLight';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangLight.ttf'); */
+    src: url('PingFangLight.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face {  
+    font-family: 'PingFangRegular';  
+    /* src: url('http://mobile.merrychange.net/Content/cdn/font/PingFangRegular.ttf'); */
+    src: url('PingFangRegular.ttf');
+    font-weight: normal;  
+    font-style: normal;  
+}

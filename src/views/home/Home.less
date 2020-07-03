@@ -1,0 +1,282 @@
+@desgin: 750;
+@base: 75rem;
+
+ 
+.luyou{
+  position: fixed;
+  top: 100/@base;
+  right: 0;
+  font-size: 14px;
+  width: 90/@base;
+  height: 90/@base;
+  line-height: 90/@base;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.layout {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 2000 / @base;
+}
+
+.header {
+  font-size: 0;
+  background: url(../../assets/images/home_beijing.png) center no-repeat;
+  background-size: 100% 100%;
+  .inner {
+    padding: 40 / @base 0 40 / @base 0;
+    header {
+      width: 100%;
+      padding: 0 116 / @base 0 171 / @base;
+      position: relative;
+      z-index: 999;
+      margin-bottom: 25 / @base;
+      .right {
+        position: absolute;
+        right: 30 / @base;
+        top: 5 / @base;
+        background: url(../../assets/images/gonglv_sao.png) center no-repeat;
+        width: 52 / @base;
+        height: 52 / @base;
+        background-size: 52 / @base 52 / @base;
+      }
+      .left {
+        position: absolute;
+        left: 30 / @base;
+        top: 5 / @base;
+        background: url(../../assets/images/gonglv_posa.png) left center no-repeat;
+        padding-left: 40 / @base;
+        height: 48 / @base;
+        line-height: 48 / @base;
+        background-size: 31 / @base 48 / @base;
+        font-size: 26 / @base;
+        text-align: right;
+        color: #fafafa;
+      }
+    }
+    .test {
+      padding: 0 50 / @base;
+      margin-top: 20 / @base;
+      font-size: 24 / @base;
+      .right {
+        width: 50%;
+        padding: 23 / @base 0 30 / @base 32 / @base;
+        border-left: 1px solid #fff;
+        color: #434343;
+        p {
+          font-size: 36 / @base;
+          font-weight: 700;
+          &.score {
+            margin-bottom: 12 / @base;
+          }
+        }
+        .content {
+          margin-top: 20 / @base;
+          line-height: 40 / @base;
+        }
+      }
+      .left {
+        width: 50%;
+        padding: 0 32 / @base 40 / @base 0;
+        position: relative;
+        .pic {
+          padding-left: 20 / @base;
+          img {
+            height: 293 / @base;
+            width: 226 / @base;
+            display: inline-block;
+          }
+        }
+        .c {
+          position: absolute;
+          top: 70 / @base;
+          left: -25 / @base;
+          width: 55 / @base;
+          height: 55 / @base;
+          line-height: 55 / @base;
+          text-align: center;
+          color: #3f216e;
+          border-radius: 50%;
+          border: 1px solid #3f216e;
+          font-size: 20 / @base;
+        }
+        .a,
+        .b {
+          position: absolute;
+          right: 32 / @base;
+          width: 70 / @base;
+          height: 70 / @base;
+          line-height: 70 / @base;
+          border-radius: 50%;
+          text-align: center;
+          color: #3f216e;
+          border: 1px solid #3f216e;
+          font-weight: 700;
+          &.a {
+            top: 25 / @base;
+          }
+          &.b {
+            bottom: 5 / @base;
+          }
+        }
+      }
+    }
+    .btn {
+      margin-top: 25 / @base;
+      text-align: center;
+      button {
+        width: 250 / @base;
+        height: 68 / @base;
+        line-height: 62 / @base;
+        border-radius: 50 / @base;
+        border: 3 / @base solid #fff;
+
+        font-size: 31 / @base;
+
+        &.right {
+          margin-left: 55 / @base;
+          background: linear-gradient(to bottom, #f695b1, #ef82bf);
+          color: #fff;
+        }
+        &.left {
+          background: linear-gradient(to bottom, #c6b4f8, #c5a7f6);
+          color: #53306c;
+        }
+      }
+    }
+  }
+}
+
+.nav {
+  width: 100%;
+  padding: 0 50 / @base;
+  margin-top: 47 / @base;
+  // height: 150 / @base;
+  font-size: 0;
+  .bd {
+    height: 100%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        width: 25%;
+        a {
+          display: block;
+          img {
+            margin: 0 auto;
+            width: 51 / @base;
+            height: 56 / @base;
+          }
+          p {
+            text-align: center;
+            margin-top: 20 / @base;
+            letter-spacing: 1 / @base;
+            color: #424242;
+            font-size: 22 / @base;
+          }
+        }
+      }
+    }
+  }
+}
+
+.swiper {
+  padding: 38 / @base 0;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10 / @base;
+  }
+}
+.swiper /deep/ .swiper-slide {
+  padding: 0 20 / @base;
+  width: 640 / @base;
+  height: 213 / @base;
+  // padding-bottom: 40 / @base;
+}
+.swiper /deep/ .swiper-pagination .swiper-pagination-bullets {
+  font-size: 0;
+}
+.swiper /deep/ .swiper-pagination-bullet-active {
+  background-color: #b695e5;
+}
+.swiper /deep/ .swiper-wrapper {
+  padding-bottom: 40px;
+}
+.main {
+  width: 100%;
+  padding: 0 40 / @base;
+  margin-bottom:125/@base;
+  .head {
+    padding-bottom: 28 / @base;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 36 / @base;
+    font-size: 0;
+    .jingx {
+      font-size: 36 / @base;
+      color: #434343;
+    }
+    .more {
+      margin-top: 5 / @base;
+      font-size: 24 / @base;
+      color: #717171;
+    }
+  }
+  .item {
+    margin-bottom: 40/@base;
+    img {
+      width:100%;
+      height: 279 / @base;
+      border-radius: 20 / @base;
+    }
+    .face {
+      .left {
+        font-size: 24 / @base;
+        color: #4f4f4f;
+        img {
+          width: 60 / @base;
+          height: 60 / @base;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .right {
+        font-size: 24 / @base;
+        color: #4f4f4f;
+        img {
+          width: 38 / @base;
+          height: 38 / @base;
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 20 / @base;
+          &.mess {
+            width: 32 / @base;
+            height: 37 / @base;
+          }
+          &.good {
+            width: 38 / @base;
+            height: 35 / @base;
+          }
+        }
+      }
+    }
+    .mei {
+      .top {
+        font-size: 36 / @base;
+        color: #4f4f4f;
+        line-height: 70 / @base;
+      }
+      .bottom {
+        font-size: 24 / @base;
+        color: #929292;
+        margin-bottom: 10 / @base;
+      }
+    }
+  }
+}

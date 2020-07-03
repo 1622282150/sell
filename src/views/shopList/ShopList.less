@@ -1,0 +1,184 @@
+
+
+@desgin: 750;
+@base: 75rem;
+.container {
+  width: 100%;
+  // height: 10000px;
+}
+
+.banner {
+  img {
+    height: 350 / @base;
+  }
+}
+.choose {
+  padding: 40 / @base 0;
+  color: #3c3c3c;
+}
+.choose /deep/ .van-dropdown-menu__title {
+  font-size: 30 / @base;
+}
+.choose /deep/ .van-dropdown-menu__title::after {
+  border: 7 / @base solid;
+  border-color: transparent transparent currentColor currentColor;
+  top: 13 / @base;
+  right: -22 / @base;
+}
+.choose /deep/ .van-cell {
+  font-size: 28 / @base;
+  padding: 20 / @base;
+  padding-left: 90 / @base;
+  color: #3c3c3c;
+}
+.choose /deep/ .van-checkbox__icon {
+  font-size: 28 / @base;
+  border: 1px solid #b695e9;
+  margin-left: 350 / @base;
+}
+.choose {
+  background-color: #fff;
+  .out {
+    margin-top: 15 / @base;
+    .city {
+      font-size: 28 / @base;
+      padding: 0 90 / @base;
+      padding-bottom: 20 / @base;
+      position: relative;
+      span {
+        margin-right: 90 / @base;
+      }
+      .dist {
+        position: absolute;
+        top: 0;
+        left: 315 / @base;
+      }
+    }
+  }
+
+  .choice {
+    position: relative;
+    font-size: 28 / @base;
+    padding: 0 90 / @base;
+    padding-top: 20 / @base;
+
+    .checked {
+      font-size: 28 / @base;
+    }
+  }
+  .btn {
+    margin-top: 20 / @base;
+    button {
+      font-size: 28 / @base;
+      color: #b695e9;
+      width: 50%;
+      float: left;
+      padding: 10 / @base 0;
+      border: none;
+      background-color: #fff;
+    }
+  }
+}
+
+.product {
+  .inner {
+    padding: 40 / @base;
+    padding-right: 81 / @base;
+    background-color: #fff;
+    &:last-child {
+      border-bottom: none;
+    }
+    .left {
+      .clean {
+        margin-left: 205 / @base;
+        .deep {
+          font-size: 36 / @base;
+          color: #424242;
+        }
+
+        .price {
+          font-size: 24 / @base;
+          color: #959595;
+          .yang {
+            margin-right: 30 / @base;
+          }
+        }
+        .rate {
+          position: relative;
+          margin-top: 20 / @base;
+          margin-bottom: 27 / @base;
+          font-size: 0;
+          vertical-align: top;
+
+          .van-rate__icon {
+            font-size: 24 / @base;
+          }
+          span {
+            position: absolute;
+            left: 200 / @base;
+            bottom: -2 / @base;
+            font-size: 24 / @base;
+            color: #b695e9;
+          }
+        }
+      }
+      img {
+        width: 160 / @base;
+        height: 160 / @base;
+        border-radius: 5 / @base;
+        border-radius: 5 / @base;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .sell {
+    .bg {
+      padding-top: 35 / @base;
+      padding-bottom: 40 / @base;
+      .left {
+        text-align: center;
+        .jiage {
+          font-size: 36 / @base;
+          color: #b695e9;
+          margin-bottom: 15 / @base;
+        }
+        .mendian {
+          font-size: 24 / @base;
+          color: #a3a3a3;
+        }
+      }
+      .right {
+        margin-left: 50 / @base;
+        .name {
+          font-size: 30 / @base;
+          color: #696969;
+          margin-bottom: 20 / @base;
+        }
+        .sellout {
+          font-size: 24 / @base;
+          color: #a3a3a3;
+        }
+      }
+    }
+  }
+  .chakan {
+    padding-bottom: 20 / @base;
+
+    background-color: #eee;
+    .link {
+      padding: 0 40 / @base;
+      background: #fff;
+      a {
+        display: block;
+        padding: 25 / @base;
+        text-align: center;
+        font-size: 30 / @base;
+        color: #b695e9;
+        border-top: 1 / @base solid #808080;
+      }
+    }
+  }
+}
+
+

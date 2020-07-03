@@ -1,0 +1,427 @@
+@base: 75rem;
+.container {
+  // position: relative;
+  // background: url(../../assets/images/gonglv_99.jpg) center top;
+  background-size: 100%;
+  // height: 100%;
+  // overflow: hidden;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-leave-to{
+  display: none;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.container_bscroll {
+  background-color: #fff;
+}
+.padding_20 {
+  padding: 0 20 / @base;
+}
+header {
+  .padding_20();
+  padding-top: 20 / @base;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height:101px;
+  font-size: 0;
+  background: url('../../assets/images/背景小.png') no-repeat;
+  background-size: 100% 100%;
+  .header {
+    width: 100%;
+    
+    
+    // font-size: 25 / @base;
+    margin-bottom: 12/@base;
+    .right {
+      i{
+        font-size:25px!important;
+      }
+      // background: url(../../assets/images/gonglv_sao.png) left center no-repeat;
+      height: 55/ @base;
+      line-height: 52 / @base;
+      // padding-left: 68 / @base;
+      margin-top: 10/@base;
+      background-size: 52 / @base 52 / @base;
+      color: #fff;
+    }
+    .left {
+      width: 260/@base;
+      height:80/@base;
+      
+      display: flex;
+      .quan{
+        width: 25%;
+        height: 80/@base;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .car{
+        position: relative;
+        width: 30%;
+        height: 80/@base;
+        margin-left: 7%;
+        text-align: center;
+        img{
+          width: 60%;
+          height: 42/@base;
+          margin:0 auto;
+        }
+        span{
+          color: white;
+          font-size: 16/@base;
+        }
+        .num1{
+          position: absolute;
+          top: -9 / @base;
+          right: 0;
+          width: 27 / @base;
+          height: 27 / @base;
+          line-height: 27 / @base;
+          text-align: center;
+          font-size: 8px;
+          border-radius: 50%;
+          background: #8b06d8;
+          color: white;
+        }
+      }
+      .message{
+        position: relative;
+        width: 30%;
+        height: 80/@base;
+        
+        margin-left: 7%;
+        text-align: center;
+        img{
+          width:60%;
+          height: 42/@base;
+          margin:0 auto;
+        }
+        span{
+          color: white;
+          font-size: 16/@base;
+        }
+        .num2{
+          position: absolute;
+          top: -9 / @base;
+          right: 0;
+          width: 27 / @base;
+          height: 27 / @base;
+          line-height: 27 / @base;
+          text-align: center;
+          font-size: 8px;
+          border-radius: 50%;
+          background: #8b06d8;
+          color: white;
+        }
+      }
+    
+    }
+  }
+}
+section {
+  .padding_20();
+  padding-top: 20 / @base;
+  // padding-bottom: 20/@base;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height:50px;
+  font-size: 0;
+  background: url('../../assets/images/背景小.png') no-repeat;
+  background-size: 100% 100%;
+  .header2 {
+    width: 100%;
+    position: relative;
+    padding-bottom: 20/@base;
+    // font-size: 25 / @base;
+    margin-bottom: 12/@base;
+    .search2{
+      position: absolute;
+      top:5/@base;
+      left: 70/@base;
+      width: 60%;
+      height: 60/@base;
+    }
+    .right {
+      i{
+        font-size:25px!important;
+      }
+      // background: url(../../assets/images/gonglv_sao.png) left center no-repeat;
+      height: 55/ @base;
+      line-height: 52 / @base;
+      // padding-left: 68 / @base;
+      margin-top: 10/@base;
+      background-size: 52 / @base 52 / @base;
+      color: #fff;
+    }
+    .left {
+      width: 260/@base;
+      height:80/@base;
+      
+      display: flex;
+      .quan{
+        width: 25%;
+        height: 80/@base;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .car{
+        position: relative;
+        width: 30%;
+        height: 80/@base;
+        
+        margin-left: 7%;
+        text-align: center;
+        img{
+          width: 60%;
+          height:42/@base;
+          margin:0 auto;
+        }
+        span{
+          color: white;
+          font-size: 16/@base;
+        }
+        .num1{
+          position: absolute;
+          top: -9 / @base;
+          right: 0;
+          width: 27 / @base;
+          height: 27 / @base;
+          line-height: 27 / @base;
+          text-align: center;
+          font-size: 8px;
+          border-radius: 50%;
+          background: #8b06d8;
+          color: white;
+        }
+      }
+      .message{
+        position: relative;
+        width: 30%;
+        height: 80/@base;
+        
+        margin-left: 7%;
+        text-align: center;
+        img{
+          width: 60%;
+          margin:0 auto;
+        }
+        span{
+          color: white;
+          font-size: 16/@base;
+        }
+        .num2{
+          position: absolute;
+          top: -9 / @base;
+          right: 0;
+          width: 27 / @base;
+          height: 27 / @base;
+          line-height: 27 / @base;
+          text-align: center;
+          font-size: 8px;
+          border-radius: 50%;
+          background: #8b06d8;
+          color: white;
+        }
+      }
+    
+    }
+  }
+}
+.swiper {
+  background: url('../../assets/images/背景下.png') no-repeat;
+  background-size: 100% auto;
+  // background-image: linear-gradient(0deg, 
+	// 	#ffcccc 0%, 
+	// 	#ffd9d9 100%);
+	box-shadow: -9px 20px 30px 0px 
+		rgba(214, 214, 214, 0.48);
+  // background-position: center center;
+  // padding-bottom: 40/@base;
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+  // border-radius: 10 / @base;
+  img {
+    width:94%;
+    height:auto;
+    margin:0 auto;
+    border-radius: 10 / @base;
+    overflow: hidden;
+  }
+}
+
+.swiper /deep/ .swiper-pagination-bullet {
+  background: #56454c;
+  opacity: 0.5;
+}
+.swiper /deep/ .swiper-pagination-bullet-active {
+  background: #8b06d8;
+}
+ .van-swipe /deep/ .van-swipe__indicator{
+  background: #a6a6a6;
+}
+.van-swipe /deep/ .van-swipe__indicators{
+  position: absolute;
+  bottom:0/@base;
+}
+nav {
+  
+  padding-top: 32/ @base;
+  
+  ul {
+    width: 100%;
+    // height: 375/@base;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    li {
+      width: 20%;
+      div{
+        display: block;
+        width: 100%;
+        padding-bottom: 20/ @base;
+        text-align: center;
+        font-size:25/ @base;
+        img {
+          width: 90 / @base;
+          height:90 / @base;
+          // display: inline-block;
+          text-align: center;
+          margin: auto;
+        }
+        p {
+          margin-top:10/@base;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.tuijian {
+  .padding_20();
+  margin-top:16/ @base;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 32%;
+      height: 150 / @base;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.sell {
+  .padding_20();
+
+  margin-top: 32 / @base;
+  border-radius: 15 / @base;
+  overflow: hidden;
+  img {
+    height: 300 / @base;
+  }
+}
+
+.shopList {
+  h3 {
+    .padding_20();
+    margin-top: 35 / @base;
+    font-size: 40 / @base;
+    color: #3c3c3c;
+    margin-bottom: 25 / @base;
+  }
+  .list {
+    background-color: #fff;
+    .padding_20();
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li {
+        width: 48%;
+        border-radius: 13 / @base;
+        overflow: hidden;
+        background-color: #fff;
+        margin-top: 20 / @base;
+        // margin-right: 10/@base;
+        
+        display: block;
+        box-shadow: 0px  0px  5px  1px #C4C3C6;
+        // &:nth-child(2n){
+        //   margin-left: 15/@base;
+        // }
+          img {
+            height: 350 / @base;
+          }
+          .bottom {
+            padding: 18 / @base 18 / @base 14/ @base 18 / @base;
+            p {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              color: rgb(60, 60, 60);
+              font-size: 27 / @base;
+              line-height:40/@base;
+	            letter-spacing: -1px;
+            }
+            .des {
+              color: rgb(148,148,148);
+              font-size: 24 / @base;
+              margin: 12 / @base 0;
+            }
+            .price {
+              margin-top: 10/@base;
+              .qian {
+                color:red;
+                display: flex;
+                height: 48/@base;
+                line-height: 48/@base;;
+                font-size: 34 / @base;
+                & .ren {
+                  font-size: 21 / @base;
+                  margin-right: 5 / @base;
+                  height: 48/@base;
+                  line-height:52/@base;;
+                  
+                }
+              }
+              .num {
+                margin-top: 5 / @base;
+                color:#8e44ab;
+                font-size: 12px;
+              }
+            }
+            .baoyou{
+              margin-top: 18/@base;
+              width:70/@base;
+              height: 35/@base;
+              line-height: 35/@base;
+              text-align: center;;
+              font-size:15/@base;
+              color: rgb(140,7,215);
+              border: 1px solid rgb(140,7,215);
+               border-radius:8px;
+            }
+          }
+        
+      }
+    }
+  }
+}
