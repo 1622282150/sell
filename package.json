@@ -16,7 +16,7 @@
     "clipboard": "^2.0.6",
     "fastclick": "^1.0.6",
     "jQuery": "^1.7.4",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "location": "0.0.1",
     "masonry": "0.0.2",
     "moment": "^2.24.0",
